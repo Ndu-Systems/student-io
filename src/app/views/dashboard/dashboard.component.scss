@@ -1,0 +1,42 @@
+.dashboard-container {
+  width: 100%;
+
+  .main {
+    position: relative;
+    float: left;
+    width: 75%;
+    height: 100vh;
+    padding: 1%;
+  }
+
+  .user-profile-btn {
+    position: absolute;
+    top: 1%;
+    right: 0;
+  }
+}
+
+.toggle-profile {
+  cursor: pointer;
+}
+.drop-down-items {
+  display: none;
+  position: absolute;
+  width: 100px;
+  background: #ffbe76;
+  padding: 2%;
+  z-index: 10;
+
+  li {
+    display: inline-block;
+    padding: 1%;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+.toggle-profile :hover .drop-down-items {
+  display: block !important;
+}

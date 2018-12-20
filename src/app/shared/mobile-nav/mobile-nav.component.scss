@@ -1,0 +1,71 @@
+.mobile-nav-container {
+  display: none;
+
+  .bar {
+    height: 80px;
+    background: #ecf0f1;
+    width: 100%;
+    position: relative;
+
+    .logo {
+      position: absolute;
+      left: 3%;
+      width: 40%;
+
+      h1 {
+        font-size: 25px;
+      }
+    }
+
+    .nav-bars {
+      position: absolute;
+      right: 3%;
+      width: 30%;
+      text-align: right;
+
+      h1 {
+        font-size: 25px;
+      }
+    }
+  }
+
+  .nav {
+    position: absolute;
+    width: 93%;
+    top: 2%;
+    left: 3%;
+    height: 30%;
+    background: #ecf0f1;
+    -webkit-box-shadow: 7px 11px 36px 0px rgba(79, 79, 79, 0.75);
+    -moz-box-shadow: 7px 11px 36px 0px rgba(79, 79, 79, 0.75);
+    box-shadow: 7px 11px 36px 0px rgba(79, 79, 79, 0.75);
+    text-align: center;
+    animation: yourAnimation 1s forwards 0s ease;
+
+    .close {
+      h1 {
+        text-align: center;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    display: block;
+  }
+}
+
+
+
+@keyframes yourAnimation {
+  0% {
+    transform: rotate(0) translateY(-20%);
+    opacity: 0;
+  }
+
+
+
+  100% {
+    transform: rotate(0) translateY(0);
+    opacity: 1;
+  }
+}

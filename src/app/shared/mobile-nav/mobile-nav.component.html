@@ -1,0 +1,23 @@
+
+<div class="mobile-nav-container">
+  <div class="bar">
+    <div class="logo">
+      <h1>
+        Start-IO
+      </h1>
+    </div>
+    <div class="nav-bars" (click)="toggleNav()">
+      <h1>
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </h1>
+    </div>
+  </div>
+  <div class="nav" *ngIf="showNav">
+    <div class="close" (click)="toggleNav()">
+      <h1>
+          <i class="fa fa-times-circle-o" aria-hidden="true" ></i>
+      </h1>
+    </div>
+    <app-ul-items></app-ul-items>
+  </div>
+</div>
