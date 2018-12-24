@@ -1,12 +1,14 @@
 .features {
   padding: 3%;
   position: relative;
-  color: #38385F;
-  background: #fff;
-  height: 100vh;
+  color: #000;
+  // background: rgb(177, 25, 25);
+  height: 130vh;
+  background: url(../../../../../../assets/home-images/curve-gray-2.png) bottom no-repeat;
+  background-size: cover;
 
-  -webkit-clip-path: ellipse(58% 57% at 44% 13%);
-  clip-path: ellipse(58% 57% at 44% 13%);
+  // -webkit-clip-path: ellipse(58% 57% at 44% 13%);
+  // clip-path: ellipse(58% 57% at 44% 13%);
 
   .on-offer {
     padding-left: 3%;
@@ -38,29 +40,30 @@
     }
   }
 
-}
-
-.feature-2 {
-  position: absolute;
-  z-index: 10;
-  width: 100%;
-  left: 0;
-  bottom: 9%;
-  display: flex;
-
-  .left {
-    flex: 1;
-
-
-    img {
-      width: 60%;
+  .feature-2 {
+    display: flex;
+    padding: 3%;
+  
+    .left {
+      flex: 1;
+  
+      img {
+        width: 60%;
+      }
+    }
+  
+    .right {
+      flex: 1;
+      text-align: center;
+  
+      p {
+        padding: 4%;
+  
+      }
+  
     }
   }
 
-  .right {
-    flex: 1;
-    text-align: center;
-    padding: 3%;
-
-  }
 }
+
+
