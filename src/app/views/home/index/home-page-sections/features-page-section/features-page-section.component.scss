@@ -1,0 +1,19 @@
+.features{
+    padding: 3%;
+    position: relative;
+    color: #38385F;
+    background: rgb(185, 185, 218);
+    height: 100vh;
+    .inner-curve{
+        position: absolute;
+        height: 81%;
+        width: 115%;
+        background: white;
+        -webkit-transform: rotate(20deg);
+        transform: rotate(16deg);
+        border-radius: 28%;
+        left: -7%;
+        top: -23%;
+        z-index: 0;
+    }
+}
