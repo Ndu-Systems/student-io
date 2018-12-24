@@ -1,3 +1,4 @@
+import { FooterPageSectionComponent } from './index/home-page-sections/footer-page-section/footer-page-section.component';
 import { FeaturesPageSectionComponent } from "./index/home-page-sections/features-page-section/features-page-section.component";
 import { AboutUsectionComponent } from "./index/home-page-sections/about-usection/about-usection.component";
 import { IndexComponent } from "./index/index.component";
@@ -11,7 +12,8 @@ export const declarations = [
   LoginComponent,
   IndexComponent,
   AboutUsectionComponent,
-  FeaturesPageSectionComponent
+  FeaturesPageSectionComponent,
+  FooterPageSectionComponent
 ];
 const routes: Routes = [
   {

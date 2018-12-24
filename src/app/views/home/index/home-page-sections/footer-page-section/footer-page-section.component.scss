@@ -1,0 +1,56 @@
+.footer-container {
+  position: relative;
+  padding: 4%;
+  margin-left: 8%;
+
+  h1 {
+    padding-left: 3%;
+    color: #fff;
+
+    .small {
+        font-size: 50%;
+        display: block;
+      .io {
+        color: orange;
+      }
+    }
+  }
+
+  .contacts{
+      width: 80%;
+      background: #fff;
+      padding: 2%;
+      border-radius: 10px;
+      margin: 2% 3%;
+      display: flex;
+
+      div{
+          flex: 1;
+          padding: 2%;
+          text-align: center;
+          img{
+              width: 20%;
+          }
+          .logo-footer{
+            width: 75%;
+            float: right;
+          }
+      }
+      .social-links{
+          a{
+              display: inline;
+              img{
+                 width: 10%;
+                 margin-left: 2%; 
+              }
+          }
+      }
+  }
+}
+
+.transaprent{
+    padding: 1% !important;
+    margin: 0 !important;
+    color: #fff !important;
+}
+

@@ -102,9 +102,11 @@
     }
   }
 
-  .about, .features{
+  .about, .features, .footer{
     height: auto;
     z-index: 1;
   }
-
+.footer{
+  background: #38385F;
+}
 }
