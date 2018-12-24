@@ -1,19 +1,66 @@
-.features{
-    padding: 3%;
-    position: relative;
-    color: #38385F;
-    background: rgb(185, 185, 218);
-    height: 100vh;
-    .inner-curve{
-        position: absolute;
-        height: 81%;
-        width: 115%;
-        background: white;
-        -webkit-transform: rotate(20deg);
-        transform: rotate(16deg);
-        border-radius: 28%;
-        left: -7%;
-        top: -23%;
-        z-index: 0;
+.features {
+  padding: 3%;
+  position: relative;
+  color: #38385F;
+  background: #fff;
+  height: 100vh;
+
+  -webkit-clip-path: ellipse(58% 57% at 44% 13%);
+  clip-path: ellipse(58% 57% at 44% 13%);
+
+  .on-offer {
+    padding-left: 3%;
+
+    h1 {
+      .small {
+        font-size: 50%;
+        display: block;
+      }
     }
+  }
+
+  .feature-1 {
+    display: flex;
+    padding: 3%;
+
+    .left {
+      flex: 1;
+    }
+
+    .right {
+      flex: 1;
+      text-align: center;
+
+
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+}
+
+.feature-2 {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  left: 0;
+  bottom: 9%;
+  display: flex;
+
+  .left {
+    flex: 1;
+
+
+    img {
+      width: 60%;
+    }
+  }
+
+  .right {
+    flex: 1;
+    text-align: center;
+    padding: 3%;
+
+  }
 }
