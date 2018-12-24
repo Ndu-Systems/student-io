@@ -9,3 +9,52 @@ html, body {
 img{
     width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(42, 42, 42);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(22, 3, 22);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: black;
+  }
+  
+  
+  
+  .btn-gold{
+    text-decoration: none;
+    text-align: center;
+    border: 3px solid #A06A4B;
+    padding: 2% 10%;
+    color: #A06A4B;
+    margin: 10px;
+    text-transform: uppercase;
+    animation: slideFromLeft 1s ease-out 2s;
+    animation-fill-mode: backwards;
+    cursor: pointer;
+  }
+  
+  
