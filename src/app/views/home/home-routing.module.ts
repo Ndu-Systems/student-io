@@ -1,14 +1,18 @@
+import { IndexComponent } from "./index/index.component";
 import { LoginComponent } from "./login/login.component";
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 import { HomeComponent } from "./home.component";
 
-export const declarations = [HomeComponent, LoginComponent];
+export const declarations = [HomeComponent, LoginComponent, IndexComponent];
 const routes: Routes = [
   {
     path: "",
     component: HomeComponent,
-    children: [{ path: "login", component: LoginComponent }]
+    children: [
+      { path: "", component: IndexComponent },
+      { path: "login", component: LoginComponent }
+    ]
   }
 ];
 
