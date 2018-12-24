@@ -4,36 +4,43 @@
     width: 100%;
     height: 80vh;
     // background: rgba(128, 128, 128, 0.541);
-    margin-bottom: 1%;
-    border: 1PX solid black;
+    margin-bottom: 2%;
+
   }
 
   .home {
     position: relative;
     background: #38385F;
+    padding: 1%;
 
     .top,
     .bottom {
       position: absolute;
-      width: 100%;
-      height: 50%;
-      left: 0;
     }
 
     .top {
-      height: 100%;
+     
+      height: 126%;
+      width: 98%;
       top: 0;
-      background: white;
-      -webkit-clip-path: ellipse(53% 94% at 33% -8%);
-      clip-path: ellipse(53% 94% at 33% -8%);
+      border-radius: 53%;
+      top: -84%;
+      left: -11%;
+      background: #ffffff;
+      background-size: 60%;
+      background-position: 0px 0px;
     }
 
     .bottom {
-      height: 0;
-      bottom: 0;
-      background: white;
-      -webkit-clip-path: ellipse(59% 58% at 51% 97%);
-clip-path: ellipse(59% 58% at 51% 97%);
+      height: 115%;
+      width: 98%;
+      top: 0;
+      border-radius: 53%;
+      top: 52%;
+      background: #ffffff;
+      background-size: 60%;
+      background-position: 0px 0px;
+      right: -29%;
     }
   }
 }
