@@ -14,7 +14,11 @@ img{
   background: none !important;
 }
 
-
+.blur{
+  // -webkit-filter: blur(1.5em);filter:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' ><filter id='blur5'><feGaussianBlur in='SourceGraphic' stdDeviation='5' /></filter></svg>#blur5");
+ 
+  filter:blur(1.5em);
+}
 
 
 
@@ -39,4 +43,12 @@ img{
   }
   
 
-  
+  @keyframes fadeIn{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+
+    }
+  }
