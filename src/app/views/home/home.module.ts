@@ -9,5 +9,6 @@ import { HomeRoutingModule ,declarations} from './home-routing.module';
   ],
   exports:[],
   declarations: [...declarations],
+
 })
 export class HomeModule { }
