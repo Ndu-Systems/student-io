@@ -6,10 +6,11 @@ import { SharedComponent } from './shared.component';
 import { RouterModule } from '@angular/router';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { UlItemsComponent } from './ul-items/ul-items.component';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
-    CommonModule,RouterModule 
+    CommonModule,RouterModule ,ReactiveFormsModule, FormsModule
   ],
   exports:[HomePcNavComponent ,SideNavComponent,MobileNavComponent],
   declarations: [SharedComponent,HomePcNavComponent,SideNavComponent,UlItemsComponent,MobileNavComponent]
