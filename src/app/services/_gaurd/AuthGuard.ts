@@ -1,6 +1,7 @@
 
 import { Injectable } from '@angular/core';
 import { CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot, Router } from '@angular/router';
+import {  USER_TOKEN } from 'src/app/shared/config';
 @Injectable({ providedIn: 'root' })
 export class AuthGuard implements CanActivate {
     
@@ -8,7 +9,7 @@ export class AuthGuard implements CanActivate {
     }
 
     canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot){
-        if(localStorage.getItem('currentUser')){
+        if(localStorage.getItem(USER_TOKEN)){
             //LoggedIn 
             return true;
         }
