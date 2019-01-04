@@ -14,4 +14,6 @@ export class HomePcNavComponent implements OnInit {
   toggleNav(){
     this.showNv = !this.showNv
   }
+ 
 }
+ 

@@ -5,11 +5,11 @@
     <li>
       <a  routerLinkActive="active-link" routerLink="/login">About</a>
     </li>
-    <li>
+    <!-- <li>
       <a  routerLinkActive="active-link" routerLink="/login">Login</a>
-    </li>
+    </li> -->
     <li>
-      <a  routerLinkActive="active-link" class="sign-up" routerLink="/login">Sign Up</a>
+      <a  routerLinkActive="active-link" class="sign-up" (click)="toggleLogin()">Sign In</a>
     </li>
 
     <!-- <li class="dropdown">
@@ -21,3 +21,20 @@
     </li> -->
    
   </ul>
+
+  <div class="overlay" *ngIf="showLogin">
+    <div class="container">
+      <div class="left">
+        <h1>
+            Sign in
+        </h1>
+        <p>
+            sign in to use the full benefits
+            of student-io 
+        </p>
+      </div>
+      <div class="right">
+        <button (click)="toggleLogin()">Abort</button>
+      </div>
+    </div>
+  </div>
