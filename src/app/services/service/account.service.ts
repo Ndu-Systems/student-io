@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { API_URL } from 'src/app/shared/config';
+import { API_URL, USER_TOKEN } from 'src/app/shared/config';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { User } from 'src/app/model';
 
@@ -19,7 +19,7 @@ export class AccountService {
   }
 
   Logout(){
-    localStorage.removeItem("currentUser");
+    localStorage.removeItem(USER_TOKEN);
   }
 
 }
