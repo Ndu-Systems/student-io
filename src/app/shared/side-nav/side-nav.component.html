@@ -2,17 +2,45 @@
   <section class="nav">
     <div class="logo">
       <h1>
-        <a routerLink="/dashboard">student.io</a>
+        <a routerLink="/dashboard">
+          <img src="assets/home-images/logo2.png" alt="">
+        </a>
       </h1>
     </div>
+    <div class="nav-primary">
+      <ul>
+        <li>
+          <img src="assets/dashboard-nav-images/Home-SJVwfzC-V.svg" alt="">
+          <a routerLink="/dashboard" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Home</a>
+        </li>
+        <li>
+          <img src="assets/dashboard-nav-images/character-Hk1gXM0bE.svg" alt="">
+          <a routerLink="/dashboard" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">My Profile
+          </a>
+        </li>
+        <li>
+          <img src="assets/dashboard-nav-images/tools-solid.svg" alt="">
+          <a routerLink="/dashboard" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Settings</a>
+        </li>
+      </ul>
+    </div>
+    <div class="nav-secondary">
+      <ul>
+        <li>
+          <a routerLink="students" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Students</a>
+        </li>
+        <li>
+          <a routerLink="/courses" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Courses </a>
+        </li>
+        <li>
+          <a routerLink="/finances" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Finances</a>
+        </li>
+        <li>
+          <a routerLink="/staff" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Staff</a>
+        </li>
     
-    <ul>
-      <li>
-        <a routerLink="users" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Users</a>
-      </li>
-      <li>
-        <a routerLink="/dashboard" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Orders !</a>
-      </li>
-    </ul>
+      </ul>
+    </div>
+
   </section>
 </div>

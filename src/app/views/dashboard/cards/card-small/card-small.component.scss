@@ -1,0 +1,26 @@
+.card {
+  background: #3F3D56;
+  padding: 3%;
+  width: 292.36px;
+  height: 25vh;
+  border-bottom: 10px solid #FF9933;
+  position: relative;
+  cursor: pointer;
+
+  p {
+    color: #fff;
+  }
+
+  h1 {
+    color: #FF9933;
+    font-weight: 300;
+    font-size: 4em;
+  }
+
+  img {
+    position: absolute;
+    width: 130.78px;
+    right: 10%;
+    bottom: 17%;
+  }
+}

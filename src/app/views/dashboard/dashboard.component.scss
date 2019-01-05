@@ -1,42 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500,700');
+
 .dashboard-container {
+  -webkit-box-shadow: 2px 4px 30px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 4px 30px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 4px 30px 6px rgba(0, 0, 0, 0.75);
   width: 100%;
+  background: #FFFFFF;
+  display: flex;
+  border-radius: 1.5em;
+  padding: 0;
+  font-family: 'Roboto Mono', monospace;
+  height: 90vh;
+
+  .nav {
+    position: relative;
+    flex: 15%;
+    overflow: hidden;
+    border-bottom-left-radius: 1.2em;
+    // height: 90vh;
+
+  }
 
   .main {
     position: relative;
-    float: left;
-    width: 75%;
-    height: 100vh;
-    padding: 1%;
+    flex: 85%;
+    overflow: hidden;
+    border-top-right-radius: 1.2em;
+
+
+    .top-bar {
+      background: #EEEEEE;
+      padding: 2.5%;
+      width: 100%;
+      position: relative;
+      ul{
+        list-style: none;
+        li{
+          display: inline;
+          padding: 0% 3%;
+          
+        }
+        .active{
+          color:  #78909C;
+        }
+      }
+      .log-off{
+        position: absolute;
+        right: 12%;
+        top:35%;
+        width: 32.21px;
+        cursor: pointer;
+      }
+    }
   }
 
-  .user-profile-btn {
-    position: absolute;
-    top: 1%;
-    right: 0;
-  }
-}
 
-.toggle-profile {
-  cursor: pointer;
-}
-.drop-down-items {
-  display: none;
-  position: absolute;
-  width: 100px;
-  background: #ffbe76;
-  padding: 2%;
-  z-index: 10;
-
-  li {
-    display: inline-block;
-    padding: 1%;
-  }
-
-  a {
-    color: white;
-    text-decoration: none;
-  }
-}
-.toggle-profile :hover .drop-down-items {
-  display: block !important;
 }
