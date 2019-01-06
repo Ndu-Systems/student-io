@@ -1,5 +1,13 @@
 <div class="card">
-    <h1>
-     {{heading}}
-    </h1>
-  </div>
+  <h1>
+    {{heading}}
+  </h1>
+  
+    <table>
+      <tr *ngFor="let item of items">
+        <td>{{item.discription}}</td>
+        <td>{{item.value_1}}</td>
+        <td>{{item.value_2}}</td>
+      </tr>
+    </table>
+</div>
