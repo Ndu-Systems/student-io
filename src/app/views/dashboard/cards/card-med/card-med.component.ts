@@ -14,8 +14,18 @@ export class CardMedComponent implements OnInit {
     {
       discription:'Nomfundo Masbongo',
       value_1:'IT:AI',
-      value_2:'IT:SD'
-    }
+      value_2:'2h13 ago'
+    },
+    {
+      discription:'John Doe',
+      value_1:'IT:AI',
+      value_2:'2days'
+    },
+    {
+      discription:'Cindy Smith',
+      value_1:'IT:AI',
+      value_2:'R5000.00'
+    },
   ];
   constructor() { }
 

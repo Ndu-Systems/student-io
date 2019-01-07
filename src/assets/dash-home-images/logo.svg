@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90.24" height="87.644" viewBox="0 0 90.24 87.644">
+  <g id="logo" transform="translate(-1018.76 -620.834)">
+    <g id="Group_1" data-name="Group 1">
+      <path id="Path_2" data-name="Path 2" d="M3131.05-1238.026v-38.5l20.131-11.827v50.326" transform="translate(-2105 1933)" fill="none" stroke="#c0392b" stroke-width="1"/>
+      <path id="Path_3" data-name="Path 3" d="M3143.631-1238.026v-73.225l30.2,19.376v53.849" transform="translate(-2105 1933)" fill="none" stroke="#e74c3c" stroke-width="1"/>
+      <path id="Path_4" data-name="Path 4" d="M3168.291-1239.033h-8.052v-50.075l34.977,21.389v29.944" transform="translate(-2105 1933)" fill="none" stroke="#d63031" stroke-width="1"/>
+    </g>
+    <text id="Math" transform="translate(1023 699)" fill="#9e0404" font-size="6" font-family="RobotoMono-Light, Roboto Mono" font-weight="300"><tspan x="0" y="6">Math</tspan></text>
+    <text id="Architect" transform="translate(1041 699)" font-size="6" font-family="RobotoMono-Light, Roboto Mono" font-weight="300"><tspan x="0" y="6">Architect</tspan></text>
+    <text id="Studio" transform="translate(1076 699)" fill="#9e0404" font-size="6" font-family="RobotoMono-Light, Roboto Mono" font-weight="300"><tspan x="0" y="6">Studio</tspan></text>
+    <path id="Path_5" data-name="Path 5" d="M3123.91-1235.318h79.748v10.646H3123.91Z" transform="translate(-2105 1933)" fill="none" stroke="#000" stroke-width="0.3"/>
+  </g>
+</svg>
