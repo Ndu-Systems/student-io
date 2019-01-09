@@ -3,7 +3,7 @@
   padding: 3%;
   width: 321.09px;
   height: 228.99px;
-  border-bottom: 3.2px solid #A1616A;
+  border-bottom: 3.2px solid #a1616a;
   position: relative;
   margin: 1%;
   cursor: pointer;
@@ -32,13 +32,12 @@
         border-radius: 10px;
         border: none;
         color: #fff;
-        font-family: 'Roboto Mono', monospace;
+        font-family: "Roboto Mono", monospace;
         font-size: 9px;
-
       }
 
       .active {
-        background: #28B463;
+        background: #28b463;
       }
     }
   }
@@ -48,15 +47,74 @@
     font-size: 22px;
     margin: 0;
     padding-left: 10px;
-
   }
 
   .course-info {
-    width: 89%;
-    padding: 2%;
-    border: 1px solid #78909C;
+    border: 1px solid #78909c;
     border-radius: 5px;
-    margin:20px 4px;
+    margin: 20px 4px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    height: 40px;
+    .values {
+      flex: 1;
+      h3{
+        font-size: 15px;
+      }
+    }
+    .labels {
+      flex: 1;
+      text-align: center;
+      p {
+        font-size: 10px;
+        vertical-align: middle;
+      }
+    }
+    .credits {
+      border-left: 3px solid #78909C;
+      text-align: center;
+      // height: 33px;
+      // background: red;
+      h3 {
+        color: #a1616a;
+        margin: 0;
+        
+      }
+    }
+    .code{
+      h3{
+        color: #3F3D56;
+        flex: 2;
+
+      }
+    }
+    span {
+      display: block;
+      text-align: left;
+    }
+  }
+  .footer{
+    position: absolute;
+    bottom: 0;
+    width: 96%;
+    background: #F2F4F5;
+    left: 0;
+    padding: 2%;
+    height: 49.49px;
+    .footer-flex{
+      display: flex;
+      div{
+        flex: 1;
+      }
+      img{
+        width: 30%;
+      }
+      h3{
+        display: inline;
+        color: #78909C
+      }
+    }
   }
 }
