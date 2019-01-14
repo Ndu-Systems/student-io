@@ -50,7 +50,7 @@
   }
 
   .course-info {
-    border: 1px solid #78909c;
+    border: .09em solid #78909c;
     border-radius: 5px;
     margin: 20px 4px;
     display: flex;
@@ -75,11 +75,11 @@
     .credits {
       border-left: 3px solid #78909C;
       text-align: center;
-      // height: 33px;
-      // background: red;
+    
       h3 {
         color: #a1616a;
         margin: 0;
+        font-size: 1.5rem;
         
       }
     }
@@ -107,13 +107,22 @@
       display: flex;
       div{
         flex: 1;
+        border-left: .1em solid #78909C;
+        padding-left: 1.1em;
+      }
+      div:nth-child(1){
+        border: none;
+        padding-left: 1em;
       }
       img{
-        width: 30%;
+        width: 20%;
       }
       h3{
         display: inline;
-        color: #78909C
+        color: #78909C;
+        font-size: 1.6rem;
+        font-weight: normal;
+        padding-left: 0.3em;        
       }
     }
   }
