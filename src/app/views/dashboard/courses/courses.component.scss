@@ -28,9 +28,26 @@
       select{
         width: 100%;
         padding: .5em;
+        font-weight: bold;
+        color: #78909C;
+
       }
     }
-
+    .input{
+      input{
+        width: 90%;
+        padding: .5em;
+        font-weight: bold;
+        border: none;
+        border-bottom: .2em solid #A1616A;
+        color: #78909C;
+      }
+    }
+.search-btn{
+  img{
+    width: 2em;
+  }
+}
     div:nth-child(6) {
       flex: 2;
     }
