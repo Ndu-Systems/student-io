@@ -1,0 +1,61 @@
+.courses-container {
+    width: 100%;
+    padding: 0% 1%;
+    position: relative;
+  
+    .search-bar {
+      display: flex;
+      width: 97%;
+  
+      div {
+        flex: 1;
+        margin: .3em;
+        // background: red;
+        // border: 1px solid rgba(93, 87, 87, 0.733);
+        min-height: 3em;
+         padding: .1em;
+        box-sizing: border-box;
+      }
+  
+      .filter-image {
+        text-align: right;
+  
+        img {
+          width: 2.5em;
+        }
+      }
+      .select{
+        select{
+          width: 100%;
+          padding: .5em;
+          font-weight: bold;
+          color: #78909C;
+  
+        }
+      }
+      .input{
+        input{
+          width: 90%;
+          padding: .5em;
+          font-weight: bold;
+          border: none;
+          border-bottom: .2em solid #A1616A;
+          color: #78909C;
+        }
+      }
+  .search-btn{
+    img{
+      width: 2em;
+    }
+  }
+      div:nth-child(6) {
+        flex: 2;
+      }
+    }
+  
+    .courses {
+      //   width: 100%;
+      display: flex;
+    }
+  }
+  

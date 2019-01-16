@@ -1,9 +1,9 @@
-<div class="courses-container">
-  <h1>All Courses</h1>
+<div class="students-container">
+  <h1>All students</h1>
   <div class="search-bar">
     <div>
 
-  <button class="btn btn-transparant brown-border">ADD COURSE</button>
+  <button class="btn btn-transparant brown-border">ADD STUDENT</button>
     </div>
     <div class="filter-image">
       <img  src="assets/courses-images/filter.svg" alt="">
@@ -42,9 +42,35 @@
       </a>
     </div>
   </div>
-  <div class="courses">
-    <app-card-courses style="margin-right:0.5em"></app-card-courses>
-    <app-card-courses style="margin-right:0.5em"></app-card-courses>
-
+  <div class="students">
+<table>
+  <thead>
+    <tr>
+      <th>Full names</th>
+      <th>Email</th>
+      <th>Student #</th>
+      <th>Cell</th>
+      <th>Course</th>
+      <th>Year</th>
+      <th>Status</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of students">
+      <td>{{item.name}}</td>
+      <td>{{item.email}}</td>
+      <td>{{item.studentNumber}}</td>
+      <td>{{item.cell}}</td>
+      <td>{{item.course}}</td>
+      <td>{{item.year}}</td>
+      <td>{{item.status}}</td>
+      <td>
+        <button>1</button>
+        <button>1</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
   </div>
 </div>
