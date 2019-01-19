@@ -7,8 +7,19 @@ import { Component, OnInit } from "@angular/core";
 })
 export class StudentsComponent implements OnInit {
   students = [
+   
+  
     {
-      name: "Musa Nkosi",
+      name: "Jonn Nkosi",
+      email: "MusaNkosi1@gmail.com",
+      studentNumber:`2678628`,
+      cell:'071454545',
+      course:'IT',
+      year:2018,
+      status:'pending'
+    },
+    {
+      name: "Jonn Nkosi",
       email: "MusaNkosi1@gmail.com",
       studentNumber:`2678628`,
       cell:'071454545',
@@ -23,8 +34,26 @@ export class StudentsComponent implements OnInit {
       cell:'071454545',
       course:'IT',
       year:2018,
+      status:'overdue'
+    },
+    {
+      name: "Jonn Nkosi",
+      email: "MusaNkosi1@gmail.com",
+      studentNumber:`2678628`,
+      cell:'071454545',
+      course:'IT',
+      year:2018,
+      status:'pending'
+    },
+    {
+      name: "Jonn Nkosi",
+      email: "MusaNkosi1@gmail.com",
+      studentNumber:`2678628`,
+      cell:'071454545',
+      course:'IT',
+      year:2018,
       status:'active'
-    }
+    },
   ];
   constructor() {}
 

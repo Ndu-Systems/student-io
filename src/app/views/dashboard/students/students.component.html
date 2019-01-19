@@ -3,10 +3,10 @@
   <div class="search-bar">
     <div>
 
-  <button class="btn btn-transparant brown-border">REGISTER A STUDENT</button>
+      <button class="btn btn-transparant brown-border">REGISTER A STUDENT</button>
     </div>
     <div class="filter-image">
-      <img  src="assets/courses-images/filter.svg" alt="">
+      <img src="assets/courses-images/filter.svg" alt="">
     </div>
     <div class="select">
       <select>
@@ -32,45 +32,51 @@
         <option>Hi</option>
       </select>
     </div>
-   
+
     <div class="input">
       <input type="text" placeholder="Search for course">
     </div>
     <div class="search-btn">
       <a href="/README.md">
-      <img src="../../../../assets/courses-images/Group 58.svg" alt="">
+        <img src="../../../../assets/courses-images/Group 58.svg" alt="">
       </a>
     </div>
   </div>
   <div class="students">
-<table>
-  <thead>
-    <tr>
-      <th>Full names</th>
-      <th>Email</th>
-      <th>Student #</th>
-      <th>Cell</th>
-      <th>Course</th>
-      <th>Year</th>
-      <th>Status</th>
-      <th>Action</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let item of students">
-      <td>{{item.name}}</td>
-      <td>{{item.email}}</td>
-      <td>{{item.studentNumber}}</td>
-      <td>{{item.cell}}</td>
-      <td>{{item.course}}</td>
-      <td>{{item.year}}</td>
-      <td>{{item.status}}</td>
-      <td>
-        <button>1</button>
-        <button>1</button>
-      </td>
-    </tr>
-  </tbody>
-</table>
+    <table>
+      <thead>
+        <tr>
+          <th>Full names</th>
+          <th>Email</th>
+          <th>Student #</th>
+          <th>Cell</th>
+          <th>Course</th>
+          <th>Year</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of students">
+          <td>
+              <i class="far fa-user circl-bg1 {{item.status}}-color"></i>
+            
+          
+            {{item.name}}</td>
+          <td>{{item.email}}</td>
+          <td>{{item.studentNumber}}</td>
+          <td>{{item.cell}}</td>
+          <td>{{item.course}}</td>
+          <td>{{item.year}}</td>
+          <td>
+            <a routerLink="student/{{item.id}}" class="status {{item.status}}">{{item.status}}</a>
+          </td>
+          <td>
+              <i class="far fa-edit circl-bg1 edit"></i>
+              <i class="far fa-trash-alt circl-bg1 delete"></i> 
+                     </td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </div>
