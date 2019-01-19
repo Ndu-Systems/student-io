@@ -2,6 +2,7 @@
   width: 100%;
   padding: 0% 1%;
   position: relative;
+  box-sizing: border-box;
 
   .search-bar {
     display: flex;
@@ -54,7 +55,14 @@
   }
 
   .courses {
-    //   width: 100%;
+    // background: red;
     display: flex;
+    padding: 1%;
+    padding-left: 0;
+    .course-card{
+      flex: 1;
+      margin: 1.2%;
+      width: 25%;
+    }
   }
 }

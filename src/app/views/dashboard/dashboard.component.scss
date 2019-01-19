@@ -18,13 +18,14 @@
     border-bottom-left-radius: 1.2em;
 
     box-sizing: border-box;
+    overflow: hidden;
+
   }
 
   .main {
     position: relative;
-    flex: 3;
+    flex: 5;
     border-top-right-radius: 1.2em;
-    width: 86.10%;
 
 
     .top-bar {
